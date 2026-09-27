@@ -8,7 +8,7 @@ int main(void){
     	for(int i=0;i<1000;i+=100)
     	{
     		PWM_UpdateDuty(&pwm_pal_1_instance,0u,i);
-    		OSIF_TimeDelay(1000);
+    		//OSIF_TimeDelay(1000);
     	}
     	for(int i=1000;i>0;i-=100)
     	{
